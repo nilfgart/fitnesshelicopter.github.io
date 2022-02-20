@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Fitness Helicopter</title>
+<script src="https://kit.fontawesome.com/62a2f145a7.js" crossorigin="anonymous"></script>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="contactp.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<body class = contactp>
+		<section class = "cheader">
+			<nav>
+				<a href="index.html"><img src="загруженное.png"></a>
+				<div class="nav-linkks" id = "navLinksks">
+					<i class="fas fa-window-close" onclick="hideMenu()" onmousedown="closing.play();"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+                        <li><a href="exercise.html">EXERCISE</a></li>
+                        <li><a href="food.html">FOOD</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        <li><a href="about page.html">ABOUT US</a></li>
+			
+					</ul>
+				</div>
+				<i class="fas fa-bars" onclick="showMenu()" onmousedown="bleep.play();"></i>
+			</nav>
+			<div class="row">
+<div class="contact-container">
+	<h1>Contact With Us!</h1>
+	<p>We would love to respond to your queries and help you succeed.<br>Feel free to get 
+		in touch with us
+	</p>
+		<div class="contact-box">
+		<div class="contact-left">
+<h3>Sent your request</h3>
+<form onsubmit="sendEmail();" >
+	<div class="input-row">
+		<div class="input-group">
+			<label >Name</label>
+			<input type="text" placeholder="Full Name">
+		</div>
+		<div class="input-group">
+			<label >Phone</label>
+			<input type="text" placeholder="+7 776 665 68 44">
+		</div>
+		<div class="input-group">
+			<label >Email</label>
+			<input type="email" placeholder="youremail@example.com">
+		</div>
+	</div>
+	<label>Message</label>
+	<textarea  rows="5" placeholder="Your Message..."></textarea>
+	 <button type="submit">SEND</button>
+	
+</form>
+		</div>
+		<div class="contact-right">
+<h3>Reach US!</h3>
+<table>
+	<tr>
+		<td>Email</td>
+		<td>alishgay@example.com</td>
+	</tr>
+	<tr>
+		<td>Phone</td>
+		<td>+7 776 665 68 44</td>
+	</tr>
+	<tr>
+		<td>Address</td>
+		<td>Kabanbay batyra 60a/6 , 25/3</td>
+	</tr>
+</table>
+		</div>
+	</div>
+</div>
+</div>
+<section class="location"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2047.2463991660934!2d71.4170449374185!3d51.09113832134561!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585a605525605%3A0x4dff4a1973f7567e!2sAstana%20IT%20University!5e0!3m2!1sru!2skz!4v1645217130516!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></section>
+<!-- Footer -->
+<section class="footer">
+	<h4>We are on</h4>
+	<p>social media</p>
+	<div class="icons">
+		<a href="https://vk.com/zeinerfain"><i class ="fa fa-vk"></i></a>
+		<a href="https://www.instagram.com/zeinerfain/"><i class ="fa fa-instagram"></i></a>
+		<a href="https://t.me/nilfgart"><i class ="fa fa-telegram"></i></a>
+		<a href="https://wa.me/77003000510?text=Hi!%20%F0%9F%91%8B"><i class ="fa fa-whatsapp"></i></a>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by MT-2103 (Nursultan, Alisher & Abzal)</p>
+</section>
+
+<!-- JS  -->
+<script src="index.js">
+</script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
